@@ -32,14 +32,21 @@ namespace WindowsFormsApplication1
         }
         [Serializable]
 
-        public struct RingSquare
+        public class RingSquare
         {
-            public double r;
-            public double a;
-            public double s;
+            public double r { get; set; }
+            public double a { get; set; }
+            public double s { get; set; }
+            public RingSquare()
+            {
+                r = 0;
+                a = 0;
+                s = 0;
+
+            }
         }
 
-        RingSquare ring;
+        RingSquare ring = new RingSquare();
 
         private void button1_Click(object sender, EventArgs e)
         {
