@@ -34,9 +34,9 @@ namespace WindowsFormsApplication1
 
         public class RingSquare
         {
-            public double r { get; set; }
-            public double a { get; set; }
-            public double s { get; set; }
+            public double r;// { get; set; }
+            public double a;// { get; set; }
+            public double s;// { get; set; }
             public RingSquare()
             {
                 r = 0;
